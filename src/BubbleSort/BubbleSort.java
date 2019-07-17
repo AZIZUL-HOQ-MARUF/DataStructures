@@ -6,7 +6,7 @@ public class BubbleSort {
 
         int[] array = {23, 12, -100, -50, 40, 1000, -20, 75};
         for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            for (int i = 0; i>lastUnsortedIndex ; i++) {
+            for (int i = 0; i<lastUnsortedIndex ; i++) {
                 if (array[i] > array[i + 1]) {  
                     array[i] = array[i] + array[i + 1];
                     array[i + 1] = array[i] - array[i + 1];
